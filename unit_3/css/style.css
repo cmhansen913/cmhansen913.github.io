@@ -1,12 +1,57 @@
 body {
-	font-family: Arial, sans-serif;
-	font-size: 20px;
-	background-color: #24425b;
+	background-color: #707070;		
 }
-.hero image {
+
+.contact-bar {
+	text-align: center;
+}
+
+.social {
+	text-align: right;
+}
+
+nav {
+	background-color: #26466D;
+	overflow: hidden;
+}
+
+nav a {
+	float: left;
+	background-color: #26466D;
+	color: #FFF;
+	background-color: #26466D;
+	text-align: center;
+	padding: 14px;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+
+.nav-links a {
+	float: right;
+}
+
+.hero-image {
 	position: relative;
+}
+
+h1 {
+	font-size: 48px;
+	text-align: center;
+}
+
+.hero-image{
 	width: 100%;
 }
-h1 {
+.hero-text {
+	text-align: center;
+	color: #FFF;
 	position: absolute;
+	top: 50%;
+	bottom: 50%;
+	left: 45%;
+}
+
+ul {
+    list-style-type: none;
 }
