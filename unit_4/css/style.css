@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:700|Roboto');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 16px; /1em= 16px/
+	text-align: center;
+	position: relative;
+}
+
+header {
+	background-color: #333;
+	}
+
+.contact-bar {
+	text-align: center;
+	color: white;
+	float: center;
+}
+
+.social {
+	text-align: right;
+	color: white;
+}
+
+nav {
+	background-color: #666666;
+	overflow: hidden;
+}
+
+nav a {
+	float: left;
+	background-color: #666666;
+	color: #FFF;
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+	padding: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.nav-links a {
+	float: right;
+}
+
+#hero-image {
+	position: relative;
+	width: 100%;
+}
+
+#hero-text {
+	text-align: center;
+	color: #FFF;
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+	left: 45%;
+}
+
+.subpage-intro {
+	width: 30em;
+	margin: 2em auto;
+	line-height: 1.5em;
+}
+
+h1, h2 {
+	font-size: 36px;
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+	padding: 14px;
+}
+
+h3 {
+	font-size: 20px;
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+	padding: 14px;
+}
+
+
+ul {
+    list-style-type: none;
+}
