@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:700|Roboto');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 16px; /1em= 16px/
+	text-align: center;
+	position: relative;
+}
+
+#wrapper {
+	margin: 0 auto;
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#contact-bar {
+	font-family: 'EB Garamond', serif;
+	font-size: 30px;
+	text-align: center;	
+	color: white;
+	float: right;
+ 	letter-spacing: .15em;
+	padding: 10px 14px;
+	margin: 0;
+}
+
+nav {
+	background-color: #E8C66A;
+	clear: right;
+	border: 1px black solid;
+    padding: 20px;
+	overflow: hidden;
+	width: 200px height: 160px;
+}
+
+
+nav a:hover {
+color: #000;
+}
+
+nav a {
+	float: left;
+	margin: 8px 8px 6px 8px;
+}
+
+.nav-links a {
+	float: right;
+	color: #FFF;
+	font-family: 'EB Garamond', serif;
+	padding: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+#hero {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#hero-image {
+	position: relative;
+}
+
+#hero-text {
+	text-align: center;
+	color: #FFF;
+	text-transform: uppercase;
+	position: absolute;
+	top: 50%;
+	bottom: 50%;
+	left: 45%;
+}
+
+#overview {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#intros {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.subpage {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+	width: 30em;
+	margin: 2em auto;
+	line-height: 1.5em;
+}
+
+h1, h2 {
+	font-size: 36px;
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+	padding: 14px;
+}
+
+h3 {
+	font-size: 20px;
+	text-align: center;
+	font-family: 'EB Garamond', serif;
+	padding: 14px;
+}
+
+h4 {
+	font-size: 20px;
+	font-family: 'EB Garamond', serif;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+	margin: 0;
+}
+
+.contact-bottom {
+	margin: 25px;
+	display: inline-block;
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#nav-bottom {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
